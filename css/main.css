@@ -4,13 +4,6 @@ font-family: 'Source Code Pro', monospace;
 
 /***** GRID *****/
 
-.full-width {
-    width: 1400px;
-    margin: 0 auto;
-    clear: both;
-    background: #1f202b;
-    text-align: center;
-}
 
 /*****Header**********/
 header {
