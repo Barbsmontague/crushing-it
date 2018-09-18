@@ -1,13 +1,8 @@
-/*****Base styles********/
-font-family: 'Montserrat', sans-serif;
-font-family: 'Source Code Pro', monospace;
-
 /***** GRID *****/
 
 .full-width {
     width: 1400px;
     margin: 0 auto;
-    clear: both;
     background: #1f202b;
     text-align: center;
 }
@@ -16,6 +11,8 @@ font-family: 'Source Code Pro', monospace;
 header {
   height: 800px;
   width: 1400px;
+  background: url('../img/hero-background.png');
+  background-size: cover;
 }
 .half-width {
     width: 700px;
@@ -54,8 +51,8 @@ header h1 {
   color: #ffffff;
   font-size: 72px;
   font-weight:400;
-  background: url('../img/hero-background.png') no-repeat 0px 100px;
   padding: 330px 0px 300px 0px;
+  margin: 0;
 }
 header h1 span {
     color: #fa0075;
