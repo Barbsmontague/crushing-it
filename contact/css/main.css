@@ -1,0 +1,238 @@
+/*****Base styles********/
+font-family: 'Montserrat', sans-serif;
+font-family: 'Source Code Pro', monospace;
+
+/***** GRID *****/
+
+.full-width {
+    width: 1400px;
+    margin: 0 auto;
+    clear: both;
+    background: #1f202b;
+    text-align: center;
+}
+
+/*****Header**********/
+header {
+  height: 100px;
+  width: 1400px;
+}
+.half-width {
+    width: 700px;
+    float:left;
+    background: #1f202b;
+}
+header p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight:400;
+  color: #ffffff;
+  line-height: 40px;
+  padding: 0px 0px 0px 45px;
+  float: left;
+}
+nav {
+  float: right;
+  text-align:right;
+  background: #1f202b;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li{
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight:400;
+  color: #ffffff;
+  padding: 0px 45px 0px 0px;
+  margin: 14px 0px 14px 0px;
+}
+header h1 {
+  font-family: 'Source Code Pro', monospace;
+  color: #ffffff;
+  font-size: 72px;
+  font-weight:400;
+  background: url('../img/hero-background.png') no-repeat 0px 100px;
+  padding: 330px 0px 300px 0px;
+}
+header h1 span {
+    color: #fa0075;
+    clear: both;
+}
+
+/*****Portfolio**********/
+#portfolio {
+  height: 1550px;
+  width: 1400px;
+  background: #1f202b;
+}
+#portfolio h3 {
+  font-family: 'Source Code Pro', monospace;
+  color: #fa0075;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight:400;
+  text-align: center;
+  margin: 0px;
+  padding: 45px 0px 45px 0px;
+}
+.half-width-right h2 {
+    text-align: left;
+    font-weight: bold;
+}
+.half-width-right p {
+    text-align: left;
+    font-weight: normal;
+}
+.picture-left {
+    width: 600px;
+    height: 470px;
+    padding: 0px 0px 0px 100px;
+    float:left;
+}
+.picture-right {
+    width: 600px;
+    height: 470px;
+    padding: 0px 50px 0px 50px;
+    float:left;
+}
+.half-width-right {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    width: 600px;
+    height: 470px;
+    padding: 0px 50px 0px 50px;
+    float:left;
+}
+.half-width-left {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-align: right;
+    width: 600px;
+    height: 470px;
+    padding: 0px 0px 0px 100px;
+    float:left;
+}
+
+
+/*****about me**********/
+#aboutme {
+  height: 550px;
+  width: 1400px;
+  background: url('../img/about-me.png') no-repeat 0px 0px;
+}
+#aboutme h3 {
+  font-family: 'Source Code Pro', monospace;
+  color: #fa0075;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight:400;
+  text-align: center;
+  margin: 0px;
+  padding: 45px 0px 45px 0px;
+}
+#aboutme h2 {
+    color: #1f202b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    width: 700px;
+    padding: 0px 50px 0px 50px;
+    float:left;
+}
+#aboutme p {
+    color: #1f202b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    width: 700px;
+    padding: 0px 50px 0px 50px;
+    float:left;
+}
+
+/*****footer**********/
+footer {
+  clear:both;
+  height:400px;
+  width: 1400px;
+  background: #1f202b;
+}
+.third-width {
+    width: 416.6px;
+    height: 160px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 50px;
+    float:left;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+footer h3 {
+  font-family: 'Source Code Pro', monospace;
+  color: #fa0075;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight:400;
+  text-align: center;
+  margin: 0px;
+  padding: 45px 0px 45px 0px;
+}
+footer ul li{
+    display: inline-block;
+    text-align: center;
+}
+#copyright {
+    height: 100px;
+    clear: both;
+}
+#copyright h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    padding: 50px 0px 0px 0px;
+}
+
+/*****contact**********/
+.half-width-contact {
+    width: 700px;
+    float:left;
+    background: grey;
+}
+#contact {
+  height: 600px;
+  width: 1400px;
+  background: grey;
+}
+#contact h3 {
+  font-family: 'Source Code Pro', monospace;
+  color: #fa0075;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight:400;
+  text-align: center;
+  margin: 0px;
+  padding: 45px 0px 45px 0px;
+  background: #1f202b;
+}
+#contact h2 {
+    color: #1f202b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    width: 700px;
+    padding: 100px 50px 0px 50px;
+    float:left;
+    text-align: center;
+}
+#contact p {
+    color: #1f202b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    width: 700px;
+    padding: 0px 50px 0px 50px;
+    float:left;
+    text-align: center;
+}
